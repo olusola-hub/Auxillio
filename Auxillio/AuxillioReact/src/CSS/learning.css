@@ -1,0 +1,299 @@
+/* general.css */
+p{
+    font-family: Roboto, Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.body{
+    margin: 0;
+    margin-top: 50px;
+ padding-left: 120px; 
+
+}
+     
+ .thumbnail{
+width: 100%;
+padding-top: 80px;
+            }
+            
+ .shift{
+  padding-left: 65px;
+ }
+
+          /* header.css */
+          .header{
+            display: flex;
+            height: 55px;
+            flex-direction:row ;
+            justify-content: space-between;
+            position: fixed;
+            top: 0;
+            left: 0;
+           right: 0;
+            background-color: white;
+            border-bottom-style: solid;
+            border-bottom-width: 1.2px;
+            border-bottom-color: rgb(223, 222, 222);
+            z-index: 100;
+        }
+        .middle-section{
+            flex: 1;
+            margin-left: 70px;
+            margin-right: 35px;
+            max-width: 500px;
+            display: flex;
+            align-items: center;
+        }
+        .search-button{
+            height: 39px;
+            width: 62px;
+            margin-right: 10px;
+            border-width: 1px;
+            border-style: solid;
+            margin-left: -1px;
+        border-color: rgb(192, 192, 192);
+            
+        }
+        .search-icon{
+            height: 23px;
+            margin-top: 4px;
+            background-color: rgb(240, 240, 240);
+            
+        }
+        .voice-search-button{
+            height: 40px;
+            width: 40px;
+            border-radius: 20px;
+            border: none;  
+        }
+        .voice-search-icon{
+            height: 24px;
+            margin-top: 4px;
+        
+        }
+        .search-bar{
+            flex: 1;
+            height: 36px;
+            border-radius: 2px;
+            box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+        font-size: 16px;
+        width: 50px;
+        border-width: 1px;
+        border-color: rgb(192, 192, 192);
+        border-style: solid;
+        }
+        .search-bar::hover{
+             
+        }
+        .search-bar::placeholder{
+            font-family: roboto, arial;
+            font-size: 16px;
+            padding-left: 10px;
+            width: 2030px;
+        }
+        
+        .left-section{
+            display: flex;
+            align-items: center;
+            margin-left: -120px;
+        }
+        .hamburger-menu{
+            width: 24px;
+            margin-left: 140px;
+            margin-right: 24px;
+        
+        
+        }
+        .youtube-logo{
+            height: 24px;
+            margin-left: 15px;
+        }
+        .right-section{
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        width: 180px;
+        margin-right: 26px;
+        flex-shrink:0;
+        }
+        .upload-icon{
+            height: 25px;
+        }
+        .youtube-app-icon{
+            height: 25px;
+        }
+        .notifications-icon{
+            height: 25px;
+        }
+        .current-user-picture{
+            height: 36px;
+            border-radius: 17px;
+        }
+        .notification-icon{
+            position: relative;
+        }
+        .notification-no{
+            position: absolute;
+            top: -2px;
+            right: -2px;
+            background-color:rgb(209, 8, 8);
+            color: white;
+            font-family: Roboto, Arial;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-top: 1px;
+            padding-bottom: 1px;
+            font-size :11px;
+            border-radius:10px;
+            font-weight :400;
+        }
+        
+        .video-time{
+            position: relative;
+        }
+        .thumbnail{
+        
+        }
+
+    /* sidebar.css */
+    .sidebar-link{
+        height: 50px;
+        width: 70px;
+      } 
+      .sidebar-link:hover{
+        background-color: lightgrey;
+      }
+       
+       .side-bar{
+          background-color: white;
+          position: fixed; 
+           top: 55px;
+           left: 0;
+          bottom: 0;
+          border-right-style: solid;
+          border-right-width: 1.2px;
+          border-right-color: rgba(223, 222, 222);
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          justify-content: space-between;
+          box-sizing :border-box;
+          color: rgb(33, 37, 41);
+          cursor :pointer;
+          font-family: Roboto, Arial, sans-serif;
+          font-size :10px;
+          font-weight :400px;
+           } 
+        
+           .home-icon{
+            height: 27px;
+            margin-bottom:-16px;
+           }
+           .home-icon::hover{
+            background-color: lightgray;
+           }
+           .explore-icon{
+            height: 27px;
+            margin-bottom:-16px;
+           }
+           .subscription-icon{
+            height: 27px;
+            margin-bottom:-16px;
+           }
+           .original-icon{
+            height: 27px;
+            margin-bottom:-16px;
+           }
+           .ytmusic-icon{
+            height: 27px;
+            margin-bottom:-16px;
+           }
+           .library-icon{
+            height: 27px;
+            margin-bottom:-16px;
+           }
+        /* .p{
+          font-size: 1px;
+        } */
+         
+
+        /* video.css */
+
+        .video-preview{
+
+        }
+        
+        .video-info-grid{
+            display: grid;
+            grid-template-columns: 50px 1fr;
+            grid-template-rows:20px ;
+        }
+        
+        
+        .video-info{
+         
+        }
+        
+        .profile-picture{
+            width: 40px;
+            border-radius: 25px;
+        ;
+        
+        }
+        
+        .video-title{
+            font-family: Roboto, Arial, sans-serif;
+            font-weight: 600;
+            font-size: 14px;
+            line-height:20px;
+            margin-bottom: 12px;
+            width: 220px;
+        }
+        
+        .video-author,
+        .video-stats{
+          font-size: 12px;
+          color:rgb(96, 96, 96) ; 
+        }
+        
+        .video-author{
+            margin-bottom: 4px;
+        }
+        
+        .profile-picture{
+            display:inline-block;
+            width: 40px;
+            border-radius: 25px;
+            background-color: grey;
+        
+        }
+        
+        .video-mark{
+            display: inline-block;
+            background-color: grey;
+        }
+        
+        .video-grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 16px;
+            row-gap: 40px;
+        }
+        
+        .video-time{
+            background-color: black;
+            color: white;
+            position: absolute;
+            right: 5px;
+            bottom: 8px;
+            font-family: roboto, arial;
+            font-size: 12px;
+            font-weight: 500;
+            padding: 4px;
+            border-radius: 2px;
+        
+        }
+        .thumbnail-row{
+            margin-bottom: 12px;
+            position: relative;
+        }

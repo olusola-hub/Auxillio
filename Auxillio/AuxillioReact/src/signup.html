@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up | AUXILIO</title>
+    <link rel="stylesheet" href="CSS/signup.css">
+</head>
+<body>
+    <div class="container">
+        <div class="info">
+            <h1 class="sign">Sign Up To AUXILIO</h1>
+            <p>Already have an account? <a href="blog.html">Log in</a></p>
+        </div>
+    </div>
+
+    <div class="move">
+        <form onsubmit="return verificationProcess()">
+            <div>
+                <input type="text" id="name" placeholder=" " maxlength="50">
+                <label for="name">User Name</label>
+            </div>
+            <div>
+                <input type="email" id="exampleInputEmailConfirm" placeholder=" ">
+                <label for="exampleInputEmailConfirm">Email</label>
+            </div>
+            <div>
+                <input type="password" id="password" placeholder=" ">
+                <label for="password">Password</label>
+            </div>
+            <div>
+                <input type="password" id="exampleInputPasswordConfirm" placeholder=" ">
+                <label for="exampleInputPasswordConfirm">Confirm Password</label>
+            </div>
+            <div>
+                <button type="submit" class="btn">Sign Up</button>
+            </div>
+        </form>
+        <div class="align">
+            <a href="https://www.google.com" class="google">
+                <div class="mov"><img class="img" src="image/img6.png" alt="Google logo"></div>
+                <p class="para">Continue with Google</p>
+            </a>
+            <a href="https://www.facebook.com" class="facebook">
+                <div class="mov2"><img class="img" src="image/download.svg" alt="Facebook logo"></div>
+                <p class="para">Continue with Facebook</p>
+            </a>
+        </div>
+    </div>
+    <script src="javaScript/signUp.js"></script>
+</body>
+</html>

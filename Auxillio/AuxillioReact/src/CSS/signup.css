@@ -1,0 +1,186 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.info {
+    margin-left: 40%;
+}
+
+.info h1 {
+    font-size: 60px;
+    display: block;
+    margin-bottom: 0;
+}
+
+.info p {
+    font-size: 19px;
+    font-weight: lighter;
+    margin-top: 7px;
+}
+
+.info p a {
+    font-size: 18px;
+    color: rgb(104, 104, 246);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.info p a:hover {
+    color: rgb(143, 143, 248);
+}
+
+.move {
+    margin: 0 auto;
+    margin-left: 25%;
+    display: flex;
+}
+
+form {
+    position: relative;
+    max-width: 45%;
+    margin-top: 20px;
+    border: 1px solid rgb(221, 219, 219);
+    border-right: 4px solid #007bff;
+    padding: 20px;
+    padding-right: 120px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+form input {
+    border: none;
+    border-bottom: 1px solid rgb(221, 219, 219);
+    padding: 8px 0;
+    outline: none;
+    font-size: 16px;
+    padding-right: 20px;
+    width: calc(100% + 50px);
+    box-sizing: border-box;
+}
+
+form input:hover {
+    border-bottom: 1px solid rgb(50, 49, 49);
+}
+
+form label {
+    position: absolute;
+    left: 0;
+    top: 8px;
+    font-size: 16px;
+    color: #666;
+    transition: all 0.3s ease;
+    pointer-events: none;
+}
+
+form input:focus + label,
+form input:not(:placeholder-shown) + label {
+    top: -16px;
+    font-size: 14px;
+    color: #007bff;
+}
+
+form input:focus {
+    border-bottom: 2px solid #007bff;
+}
+
+form div a {
+    border-radius: 20px;
+    padding: 12px 30px;
+    border: 1px solid rgb(229, 229, 253);
+    background-color: white;
+    font-size: 16px;
+    margin-top: 15px;
+    color: rgb(17, 109, 255);
+    font-weight: 500;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+}
+
+form div a:hover {
+    color: white;
+    background-color: rgb(11, 80, 192);
+    transition:  0.7s ease;
+}
+
+.google {
+    height: 50px;
+    display: flex;
+    background-color: rgb(64, 135, 249);
+    width: 320px;
+    text-decoration: none;
+    margin-left: 80px;
+    margin-top: 90px;
+}
+
+.google:hover {
+    text-decoration: none;
+}
+
+.mov {
+    width: 50px;
+    background-color: white;
+    border: 1.4px solid #0b6cd3;
+    border-bottom: 1px solid #0b6cd3;
+}
+
+.img {
+    position: relative;
+    height: 25px;
+    top: 9px;
+    left: 13px;
+}
+
+.para {
+    color: white;
+    padding-top: 11px;
+    font-size: 14px;
+    padding-left: 60px;
+}
+
+.facebook {
+    height: 50px;
+    display: flex;
+    background-color: rgb(30, 60, 109);
+    width: 320px;
+    text-decoration: none;
+    margin-left: 80px;
+    margin-top: 14px;
+}
+
+.facebook:hover {
+    text-decoration: none;
+}
+
+.mov2 {
+    width: 50px;
+    background-color: white;
+    border: 1.4px solid #0e4581;
+    border-bottom: 1px solid #123a64;
+}
+
+.sign{
+    margin-left: -160px;
+}
+
+.btn{
+    background-color: #007bff;
+    padding: 16px 30px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 17px;
+}
+.btn:hover{
+    background-color: white;
+    padding: 17px 31px;
+    border: none;
+    border-radius: 20px;
+    color: #007bff;
+    font-size: 17px;
+    border: 1px solid rgb(36, 129, 200);
+    transition: 0.2s ease-in-out;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | AUXILIO</title>
+    <link rel="stylesheet" href="CSS/dashboard.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="left">
+                <p>Auxilio</p>
+                <img src="icons/home.svg" alt="">
+                <a href="home.html">Home</a>
+                <img class="course" src="icons/library.svg" alt="">
+                <a href="course.html">Course</a>
+            </div>
+            <div class="middle">
+                <input class="search-bar" placeholder="Search">
+                <button class="search-button">
+                    <img class="search-icon" src="icons/search.svg" alt="">
+                </button>
+            </div>
+            <div class="right">
+                <img src="image/channel-2.jpeg" alt="">
+            </div>
+        </nav>
+    
+        <div class="left-page">  
+            <div class="greeting">
+                <p id="hello"></p>
+            </div>
+            <div class="calender"></div>
+            <div class="achivement"></div>
+        </div>
+
+        <div class="right-page">
+            <p>Jump back In</p>
+
+            <div class="current-course">
+                <img style="width: 100%; height: 100%;" src="image/pyh rep 2.jpg" alt="">
+            </div>
+            <a class="courses" href="course.html">View all Course</a>
+            <div class="avaliable-courses">
+                <div class="one"><a href="home.html"></a></div>
+                <p style="font-size: 20px; margin: 0; margin-top:250px; margin-left: -190px; ">PYH 101</p>
+                <div class="one"><a href="home.html"></a></div>
+                <p style="font-size: 20px; margin: 0; margin-top:250px; margin-left: -190px; ">CSC 101</p>
+                <div class="one"><a href="home.html"></a></div>
+                <p style="font-size: 20px; margin: 0; margin-top:250px; margin-left: -190px; ">GST 112</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-sm styled-container">
+        <h1 class="text-center display mt-4" id="time"></h1>
+        <div class="d-flex justify-content-center">
+            <button onclick="return displayGretting()" class="btn btn-custom " type="submit" id="click">Submit</button>
+        </div>
+    </div>
+
+    <script>
+        // Display username on dashboard
+        window.onload = function () {
+            const username = localStorage.getItem('username');
+            if (username) {
+                document.getElementById('hello').textContent = `Welcome, ${username}!`;
+            } else {
+                document.getElementById('hello').textContent = "Welcome!";
+            }
+        };
+    </script>
+</body>
+</html>
